@@ -1,0 +1,394 @@
+.header{
+    background: url(./desk-header\ 1.png) no-repeat;
+    width: 100%;
+    height: 700px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.logo-link{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.header-login{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 9px;
+}
+
+
+.login-link{
+    color: #ffffff;
+}
+
+
+
+.header-signup{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+
+.signup-link{
+    color: #ffffff;
+}
+
+
+.div-logo{
+    margin-top: 14px;
+}
+
+
+.holiday-about{
+    text-align: center;
+    margin-top: 136px;
+}
+
+.about{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: #ffffff;
+}
+
+
+.holiday-partner{
+    text-align: center;
+    margin-top: 36px;
+}
+
+
+.partner{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+.holiday-find{
+    text-align: center;
+    margin-top: 46px;
+}
+
+
+.find{
+    background-color: #ff4e50;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 20.5px;
+    width: 228px;
+    height: 43px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+
+.find:hover{
+    background-color: #df4648;
+}
+
+
+
+.fholiday-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #333333;
+}
+
+
+.footer-holiday{
+    margin-top: 65px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.person1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 83px;
+    margin-left: 263px;
+}
+
+
+.person1:before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: #FF4E50;
+    border: 4px solid #FFFFFF;
+    border-radius: 100%;
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    bottom: 110px;
+}
+
+
+.person1:after{
+    content: "";
+    background: url(./Combined\ shape\ 77.png) no-repeat;
+    height: 20px;
+    width: 19px;
+    position: absolute;
+    right: 20px;
+    bottom: 120px;
+}
+
+
+.footer-people{
+    width: 224px;
+    height: 120px;
+    display: flex;
+}
+
+
+.hunter-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    margin-top: 16px;
+}
+
+
+.hunter-about{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 13px;
+}
+
+
+
+.person2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 83px;
+}
+
+
+.person2:before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: #1CD7AD;
+    border: 4px solid #FFFFFF;
+    border-radius: 100%;
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    bottom: 130px;
+}
+
+
+.person2:after{
+    content: "";
+    background: url(./Combined\ shape\ 106.png) no-repeat;
+    height: 20px;
+    width: 19px;
+    position: absolute;
+    right: 10px;
+    bottom: 140px;
+}
+
+.walker-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    margin-top: 16px;
+}
+
+
+.walker-about{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 13px;
+}
+
+
+
+.person3{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 83px;
+}
+
+
+.person3:before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: #FFA507;
+    border: 4px solid #FFFFFF;
+    border-radius: 100%;
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    bottom: 175px;
+}
+
+
+
+.person3:after{
+    content: "";
+    background: url(./Combined\ shape\ 108.png) no-repeat;
+    height: 20px;
+    width: 19px;
+    position: absolute;
+    right: 10px;
+    bottom: 185px;
+}
+
+
+.marsh-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    margin-top: 16px;
+}
+
+
+
+.marsh-about{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 13px;
+}
+
+
+
+
+.person4{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.person4:before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: #4E73DB;
+    border: 4px solid #FFFFFF;
+    border-radius: 100%;
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+
+.person4:after{
+    content: "";
+    background: url(./Combined\ shape\ 110.png) no-repeat;
+    height: 20px;
+    width: 19px;
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+}
+
+
+.brudley-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    margin-top: 16px;
+}
+
+
+
+
+.brudley-about{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 13px;
+}
+
+
+
+.footer-div{
+    margin-bottom: 250px;
+}
+
+
+
+.new-partners{
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    color: #FF4E50;
+    border-radius: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 195px;
+    height: 43px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer-button{
+    text-align: center;
+}
+
+
+
+
+.new-partners:hover{
+    border: 2px solid #b43b3d;
+    color: #b43b3d;
+}
