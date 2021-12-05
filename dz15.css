@@ -1,3 +1,9 @@
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
 .header{
     background: url(./desk-header\ 1.png) no-repeat;
     width: 100%;
@@ -171,6 +177,7 @@ a{
     width: 224px;
     height: 120px;
     display: flex;
+    
 }
 
 
@@ -391,4 +398,137 @@ a{
 .new-partners:hover{
     border: 2px solid #b43b3d;
     color: #b43b3d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .footer-people{
+        margin-bottom: 500px;
+    }
+    .person1{
+        margin-left: 150px;
+        margin-bottom: 300px;
+        margin-right: 135px;
+    }
+    body{
+       max-width: 768px;
+       position: relative;
+    }
+    .person2{
+        margin-right: 100px;
+    }
+    .person3{
+        position: absolute;
+        bottom: 75px;
+        right: 345px;
+        width: 120px;
+    }
+    .person4{
+        position: absolute;
+        bottom: 140px;
+        left: 452px;
+        width: 120px;
+    }
+    .person4:after{
+        content: "";
+        position: absolute;
+        bottom: 120px;
+    }
+    .person4:before{
+        content: "";
+        position: absolute;
+        bottom: 110px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:320px){
+    .footer-people{
+        margin-bottom: 1000px;
+    }
+    .about{
+        font-size: 30px;
+    }
+    .logo-link{
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        font-size: 18px;
+    }
+    .signup-link{
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        font-size: 14px;
+    }
+    .login-link{
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        font-size: 14px;
+        justify-content: none;
+    }
+    .person1{
+        position: absolute;
+        right: -45px;
+    }
+    body{
+       max-width: 320px;
+       position: relative;
+    }
+    .person2{
+       position: absolute;
+       bottom: 750px;
+       left: 75px;
+    }
+    .person3{
+        position: absolute;
+        bottom: 380px;
+        left: 65px;
+        width: 120px;
+    }
+    .person4{
+        position: absolute;
+        bottom: 100px;
+        width: 120px;
+        left: 58px;
+    }
+    .new-partners{
+        margin-top: 150px;
+    }
+    .partner{
+        font-size: 18px;
+    }
+    .div-logo{
+        position: absolute;
+        top: 120px;
+    }
 }
